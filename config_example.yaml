@@ -1,0 +1,19 @@
+node:
+  address: "0x0062b73472....61e2c37" #node address
+  key: "3074..." #private 
+  percentage: 90.0 #percentage reward
+  time: "04:00" # distribution time in HH:MM
+  donation: 1.0 # donation amount, e.g 1.0 MHC
+  
+skip: #these are skip addresses, list all addreses to be skipped during reward distribution
+  - 0x0062...1e2c37
+  - 0x0062...1e2c37
+  - 0x0062...1e2c37 
+
+special: #special addresses with different distribution percentage.
+  addresses: 
+   - 0x0062...1e2c37 #address 1
+   - 0x0062...1e2c37 #address 2
+  percentage:
+   - 10.0 #percentage for address 1 above
+   - 20.4 #percentage for address 2 above
